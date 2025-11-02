@@ -1,6 +1,6 @@
 import { MissionUtils } from "@woowacourse/mission-utils";
-import LottoGenerator from "../src/LottoGenerator.js";
-import Lotto from "../src/Lotto.js";
+import LottoGenerator from "../src/domain/LottoGenerator.js";
+import Lotto from "../src/domain/Lotto.js";
 
 jest.mock("@woowacourse/mission-utils");
 

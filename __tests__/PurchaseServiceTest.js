@@ -1,5 +1,5 @@
-import { ERROR_MESSAGE } from "../src/errorMessage";
-import PurchaseService from "../src/PurchaseService";
+import { ERROR_MESSAGE } from "../src/constants/ErrorMessage";
+import PurchaseService from "../src/service/PurchaseService";
 
 describe("구입 금액 예외 테스트", () => {
   test.each([0, -1000, -8000])(

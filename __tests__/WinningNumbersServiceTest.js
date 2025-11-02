@@ -1,5 +1,5 @@
-import { ERROR_MESSAGE } from "../src/errorMessage";
-import WinningNumbersService from "../src/WinningNumbersService";
+import { ERROR_MESSAGE } from "../src/constants/ErrorMessage";
+import WinningNumbersService from "../src/service/WinningNumbersService";
 
 describe("로또 당첨 번호 테스트", () => {
   test("쉼표가 없을 경우 에러가 발생한다", () => {

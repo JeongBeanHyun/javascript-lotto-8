@@ -1,10 +1,10 @@
 import { Console } from "@woowacourse/mission-utils";
-import LottoGenerator from "./LottoGenerator.js";
-import PurchaseService from "./PurchaseService.js";
-import ResultService from "./ResultService.js";
-import InputView from "./view/InputView.js";
-import OutputView from "./view/outputView.js";
-import WinningNumbersService from "./WinningNumbersService.js";
+import LottoGenerator from "../domain/LottoGenerator.js";
+import PurchaseService from "../service/PurchaseService.js";
+import ResultService from "../service/ResultService.js";
+import InputView from "../view/InputView.js";
+import OutputView from "../view/outputView.js";
+import WinningNumbersService from "../service/WinningNumbersService.js";
 
 class LottoController {
   async startLotto() {

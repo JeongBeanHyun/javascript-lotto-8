@@ -1,4 +1,4 @@
-import ResultService from "../src/ResultService";
+import ResultService from "../src/service/ResultService";
 
 describe("당첨 결과 판별 테스트", () => {
   const winning = [1, 2, 3, 4, 5, 6];
