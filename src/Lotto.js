@@ -1,4 +1,4 @@
-import { ERROR_MESSAGE } from "./errorMessage";
+import { ERROR_MESSAGE } from "./errorMessage.js";
 
 class Lotto {
   #numbers;

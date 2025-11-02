@@ -1,5 +1,5 @@
-import { ERROR_MESSAGE } from "./errorMessage";
-import Lotto from "./Lotto";
+import { ERROR_MESSAGE } from "./errorMessage.js";
+import Lotto from "./Lotto.js";
 
 class WinningNumbersService {
   static parseWinningNumbers(input) {
