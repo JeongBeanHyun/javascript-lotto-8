@@ -3,8 +3,8 @@ import LottoGenerator from "../domain/LottoGenerator.js";
 import PurchaseService from "../service/PurchaseService.js";
 import ResultService from "../service/ResultService.js";
 import InputView from "../view/InputView.js";
-import OutputView from "../view/outputView.js";
 import WinningNumbersService from "../service/WinningNumbersService.js";
+import OutputView from "../view/OutputView.js";
 
 class LottoController {
   async startLotto() {
