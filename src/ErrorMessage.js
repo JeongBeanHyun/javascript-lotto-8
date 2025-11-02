@@ -5,4 +5,7 @@ export const ERROR_MESSAGE = {
   INVALID_SEPARATOR: "[ERROR] 구분자는 쉼표(,)만 가능합니다.",
   INVALID_AMOUNT_UNIT: "[ERROR] 구입 금액의 단위는 1,000원입니다.",
   INVALID_AMOUNT_POSITIVE: "[ERROR] 구입 금액은 양의 정수입니다.",
+  INVALID_NUMBER: "[ERROR] 숫자만 가능합니다.",
+  BONUS_DUPLICATE_WITH_WINNING:
+    "[ERROR] 보너스 번호는 당첨 번호와 중복될 수 없습니다.",
 };
