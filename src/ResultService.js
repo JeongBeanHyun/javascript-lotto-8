@@ -49,7 +49,7 @@ class ResultService {
   static calculateEarningRate(totalPrize, purchaseAmount) {
     if (purchaseAmount <= 0) return 0;
     const rate = (totalPrize / purchaseAmount) * 100;
-    return Number(rate.toFixed(2));
+    return Number(rate.toFixed(1));
   }
 }
 
