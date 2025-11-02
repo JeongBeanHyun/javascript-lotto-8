@@ -1,18 +1,19 @@
-import { ERROR_MESSAGE } from "./errorMessage";
+import { ERROR_MESSAGE } from "./errorMessage.js";
 
 class PurchaseService {
   static validateAmount(amount) {
-    if (!Number.isInteger(amount) || amount <= 0) {
+    const number = Number(amount);
+    if (!Number.isInteger(number) || number <= 0) {
       throw new Error(ERROR_MESSAGE.INVALID_AMOUNT_POSITIVE);
     }
-    if (amount % 1000 !== 0) {
+    if (number % 1000 !== 0) {
       throw new Error(ERROR_MESSAGE.INVALID_AMOUNT_UNIT);
     }
-    return amount;
+    return number;
   }
 
   static calculateLottoCount(amount) {
-    return amount / 1000;
+    return Number(amount) / 1000;
   }
 }
 
